@@ -1,0 +1,13 @@
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+
+.nav-menu{
+    background-color: black;
+}
+
+
