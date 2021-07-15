@@ -81,9 +81,8 @@ body {
     width: 40px;
     height: 40px;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding-top: 9%;
 }
 
 .icons2 {
@@ -92,9 +91,8 @@ body {
     width: 40px;
     height: 40px;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding-top: 9%;
 }
 
 .icons3 {
@@ -103,9 +101,8 @@ body {
     width: 40px;
     height: 40px;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding-top: 9%;
 }
 
 .icons4 {
@@ -114,9 +111,8 @@ body {
     width: 40px;
     height: 40px;
     font-size: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
+    padding-top: 9%;
 }
 
 .vitorias {
@@ -129,6 +125,16 @@ body {
     justify-content: center;
     align-items: center;
     margin: 5%;
+}
+
+.numero {
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0c768;
 }
 
 .content-vitorias {
@@ -169,7 +175,7 @@ body {
     margin-top: 0;
     justify-content: center;
     align-items: center;
-    width: 40px;
+    width: 30px;
     color: #c34463;
     font-size: 25px;
 }
