@@ -237,8 +237,30 @@ body {
 
 .botoes-baixo {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+    align-items: center;
     width: 41.5%;
+}
+
+.botao1,
+.botao2 {
+    min-width: 150px;
+    padding: 1%;
+    width: 200px;
+    height: 40px;
+    font-weight: 300;
+}
+
+.botao1 {
+    background-color: #ffff;
+    color: #c34463;
+    margin: 1%;
+}
+
+.botao2 {
+    background-color: #c34463;
+    color: #ffffff;
+    margin: 1%;
 }
 
 @media (max-width: 956px) {
@@ -313,6 +335,14 @@ body {
     }
     .title-h4-icons {
         font-size: 10px;
+    }
+    .botao1,
+    .botao2 {
+        min-width: 140px;
+        padding: 1%;
+        width: 150px;
+        height: 30px;
+        font-weight: 300;
     }
 }
 
