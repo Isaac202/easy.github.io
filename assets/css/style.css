@@ -1,430 +1,620 @@
-body {
-    height: 100%;
-}
-
-.menu {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.nav-menu {
-    background-color: black;
-}
-
-.link-a {
-    color: #ffffff;
-}
-
-.linha-vertical {
-    height: 100px;
-    /*Altura da linha*/
-    border-left: 2px solid;
-    /* Adiciona borda esquerda na div como ser fosse uma linha.*/
-    top: 50%;
-}
-
-.secao-meio {
-    display: flex;
-}
-
-.texto-secao-meio {
-    width: 50%;
-    margin-top: 5%;
-}
-
-.img-secao-meio {
-    width: 50%;
-}
-
-.meio {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
-.button-meio {
-    width: 300px;
-}
-
-.conteiner-banner {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 5%;
-}
-
-.buttons-banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0 3%;
-}
-
-.content-meio {
-    width: 33%;
-    margin: 4%;
-    margin-bottom: 8%;
-}
-
-.home {
-    width: 100px;
-    height: 100px;
-    border-radius: 100px;
-    background-image: url('https://tse4.mm.bing.net/th?id=OIP.xDpM2PDfmR2F5-rAKLWhxQHaG-&pid=Api&P=0&w=183&h=173');
-}
-
-.content-buttons {
-    display: flex;
-    padding: 3%;
-    justify-content: center;
-    align-items: center;
-    border-left: 2px solid black;
-}
-
-.title-h4-icons {
-    margin: 8px;
-}
-
-.icons {
-    background: #c34463;
-    border-radius: 40px;
-    width: 40px;
-    height: 40px;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 9%;
-}
-
-.icons2 {
-    background: #74bb87;
-    border-radius: 40px;
-    width: 40px;
-    height: 40px;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 9%;
-}
-
-.icons3 {
-    background: #f0c768;
-    border-radius: 40px;
-    width: 40px;
-    height: 40px;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 9%;
-}
-
-.icons4 {
-    background: #394e6a;
-    border-radius: 40px;
-    width: 40px;
-    height: 40px;
-    font-size: 25px;
-    text-align: center;
-    padding-top: 9%;
-}
-
-.vitorias {
-    margin: 5%;
-}
-
-.body-vitorias {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 5%;
-}
-
-.numero {
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f0c768;
-}
-
-.content-vitorias {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
-.content-vitorias2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 5%;
-}
-
-.img-vitorias {
-    width: 33%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 4px;
-    border: solid .5px rgb(0, 0, 0, .1);
-    padding: 1%;
-    margin: 2%;
-    padding-bottom: 3%;
-}
-
-.img-vitorias2 {
-    width: 25%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    border-radius: 4px;
-    padding: 1%;
-    margin: 2%;
-    padding-bottom: 3%;
-}
-
-.form-controle {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    width: 100%;
-}
-
-.form-controle button {
-    width: 300px;
-}
-
-.form-controle input {
-    min-width: 350px;
-    width: 100%;
-}
-
-.img-vitorias p {
-    text-align: center;
-}
-
-.text-vitorias {
-    width: 45%;
-}
-
-.text-vitorias h4 {
-    font-size: 20px;
-    margin-left: 5%;
-}
-
-.text-vitorias li {
-    display: flex;
-    align-items: center;
-    padding-right: 4%;
-    margin: 5px 0;
-}
-
-.ul-vitoria p {
-    display: flex;
-    flex-direction: column;
-    height: 10px;
-    margin: 1px;
-    margin-top: 0;
-    justify-content: center;
-    align-items: center;
-    width: 30px;
-    color: #c34463;
-    font-size: 25px;
-}
-
-.ul-vitoria h4 {
-    font-size: 15px;
-}
-
-.icons5 {
-    width: 30px;
-    height: 30px;
-    border-radius: 30px;
-    background-color: #74bb87;
-}
-
-.gestao-banner {
-    display: flex;
-    margin-top: 5%;
-    width: 100%;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-.gestao-content {
-    width: 80%;
-    background-color: rgb(57, 78, 106, .1);
-    display: flex;
-    justify-content: space-between;
-    max-height: 60px;
-    align-items: center;
-    padding: 0 2%;
-}
-
-.body-getsao {
-    max-height: 50%;
-    display: flex;
-    padding: 3%;
-    justify-content: center;
-    align-items: center;
-}
-
-.gestao-content p {
-    cursor: pointer;
-}
-
-.secao-baixo {
-    padding: 10%;
-}
-
-.content-baixo {
-    background-color: #394e6a;
-    border-radius: 10px;
-    padding: 4%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.botoes-baixo {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 41.5%;
-}
-
-.botao1,
-.botao2 {
-    min-width: 150px;
-    padding: 1%;
-    width: 200px;
-    height: 40px;
-    font-weight: 300;
-}
-
-.botao1 {
-    background-color: #ffff;
-    color: #c34463;
-    margin: 1%;
-}
-
-.botao2 {
-    background-color: #c34463;
-    color: #ffffff;
-    margin: 1%;
-}
-
-@media (max-width: 956px) {
-    .icons,
-    .icons2,
-    .icons3,
-    .icons4 {
-        font-size: 20px;
-        border-radius: 35px;
-        width: 35px;
-        height: 35px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    .title-h4-icons {
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 626px) {
-    .icons,
-    .icons2,
-    .icons3,
-    .icons4 {
-        font-size: 15px;
-        border-radius: 30px;
-        width: 30px;
-        height: 30px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .title-h4-icons {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 526px) {
-    .icons,
-    .icons2,
-    .icons3,
-    .icons4 {
-        font-size: 13px;
-        border-radius: 25px;
-        width: 25px;
-        height: 25px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .title-h4-icons {
-        font-size: 12px;
-    }
-}
-
-@media (max-width: 421px) {
-    .icons,
-    .icons2,
-    .icons3,
-    .icons4 {
-        font-size: 10px;
-        border-radius: 20px;
-        width: 20px;
-        height: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .title-h4-icons {
-        font-size: 10px;
-    }
-    .botao1,
-    .botao2 {
-        min-width: 140px;
-        padding: 1%;
-        width: 150px;
-        height: 30px;
-        font-weight: 300;
-        font-size: 15px;
-    }
-}
-
-@media (max-width: 991px) {
-    .secao-meio,
-    .content-vitorias {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    }
-    .img-secao-meio,
-    .texto-secao-meio,
-    .img-vitorias,
-    .text-vitorias {
-        width: 80%;
-    }
-    .meio {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-    .button-meio {
-        margin-top: 5%;
-    }
-}
+            body {
+                height: 100%;
+            }
+            
+            .menu {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .nav-menu {
+                background-color: black;
+            }
+            
+            .link-a {
+                color: #ffffff;
+            }
+            
+            .linha-vertical {
+                height: 100px;
+                /*Altura da linha*/
+                border-left: 2px solid;
+                /* Adiciona borda esquerda na div como ser fosse uma linha.*/
+                top: 50%;
+            }
+            
+            .secao-meio {
+                display: flex;
+            }
+            
+            .texto-secao-meio {
+                width: 50%;
+                margin-top: 5%;
+            }
+            
+            .img-secao-meio {
+                width: 50%;
+            }
+            
+            .meio {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+            }
+            
+            .button-meio {
+                width: 300px;
+            }
+            
+            .conteiner-banner {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                margin-top: 5%;
+            }
+            
+            .buttons-banner {
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                padding: 0 3%;
+                justify-content: center;
+            }
+            
+            .content-meio {
+                width: 33%;
+                margin: 4%;
+                margin-bottom: 8%;
+                max-width: 370px;
+            }
+            
+            .home {
+                width: 100px;
+                height: 100px;
+                border-radius: 100px;
+                background-image: url('https://tse4.mm.bing.net/th?id=OIP.xDpM2PDfmR2F5-rAKLWhxQHaG-&pid=Api&P=0&w=183&h=173');
+            }
+            
+            .content-buttons {
+                display: flex;
+                padding: 3%;
+                justify-content: center;
+                align-items: center;
+                border-left: 2px solid black;
+            }
+            
+            .title-h4-icons {
+                margin: 8px;
+            }
+            
+            .icons {
+                background: #c34463;
+                border-radius: 40px;
+                width: 40px;
+                height: 40px;
+                font-size: 25px;
+                text-align: center;
+                padding-top: 9%;
+            }
+            
+            .icons2 {
+                background: #74bb87;
+                border-radius: 40px;
+                width: 40px;
+                height: 40px;
+                font-size: 25px;
+                text-align: center;
+                padding-top: 9%;
+            }
+            
+            .icons3 {
+                background: #f0c768;
+                border-radius: 40px;
+                width: 40px;
+                height: 40px;
+                font-size: 25px;
+                text-align: center;
+                padding-top: 9%;
+            }
+            
+            .icons4 {
+                background: #394e6a;
+                border-radius: 40px;
+                width: 40px;
+                height: 40px;
+                font-size: 25px;
+                text-align: center;
+                padding-top: 9%;
+            }
+            
+            .vitorias {
+                width: 100%;
+            }
+            
+            .body-vitorias {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin: 5%;
+            }
+            
+            .numero {
+                width: 30px;
+                height: 30px;
+                border-radius: 30px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                background-color: #f0c768;
+            }
+            
+            .content-vitorias {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+            
+            .content-vitorias2 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                justify-content: center;
+                padding: 5%;
+                flex-flow: row wrap;
+                width: 100%;
+            }
+            
+            .img-vitorias {
+                width: 33%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                border-radius: 4px;
+                border: solid .5px rgb(0, 0, 0, .1);
+                padding: 1%;
+                margin: 2%;
+                padding-bottom: 3%;
+            }
+            
+            .img-vitorias2 {
+                width: 25%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                border-radius: 4px;
+                padding: 1%;
+                margin: 2%;
+                padding-bottom: 3%;
+                min-width: 350px;
+            }
+            
+            .form-controle {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                width: 100%;
+            }
+            
+            .form-controle button {
+                width: 300px;
+            }
+            
+            .form-controle input {
+                min-width: 350px;
+                width: 100%;
+            }
+            
+            .img-vitorias p {
+                text-align: center;
+            }
+            
+            .text-vitorias {
+                width: 45%;
+            }
+            
+            .text-vitorias h4 {
+                font-size: 20px;
+                margin-left: 5%;
+            }
+            
+            .text-vitorias li {
+                display: flex;
+                align-items: center;
+                padding-right: 4%;
+                margin: 5px 0;
+            }
+            
+            .ul-vitoria p {
+                display: flex;
+                flex-direction: column;
+                height: 10px;
+                margin: 1px;
+                margin-top: 0;
+                justify-content: center;
+                align-items: center;
+                width: 30px;
+                color: #c34463;
+                font-size: 25px;
+            }
+            
+            .ul-vitoria h4 {
+                font-size: 15px;
+            }
+            
+            .icons5 {
+                width: 30px;
+                height: 30px;
+                border-radius: 30px;
+                background-color: #74bb87;
+            }
+            
+            .gestao-banner {
+                display: flex;
+                margin-top: 5%;
+                width: 100%;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-image: linear-gradient(to top, #ffffff, #394e6a);
+            }
+            
+            .gestao-content {
+                width: 80%;
+                background-color: rgb(57, 78, 106, .1);
+                display: flex;
+                justify-content: space-between;
+                max-height: 60px;
+                align-items: center;
+                padding: 0 2%;
+            }
+            
+            .body-getsao {
+                max-height: 50%;
+                display: flex;
+                padding: 3%;
+                justify-content: center;
+                align-items: center;
+            }
+            
+            .gestao-content p {
+                cursor: pointer;
+            }
+            
+            .secao-baixo {
+                padding: 10%;
+            }
+            
+            .content-baixo {
+                background-color: #394e6a;
+                border-radius: 10px;
+                padding: 4%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+            }
+            
+            .botoes-baixo {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 41.5%;
+            }
+            
+            .botao1,
+            .botao2 {
+                min-width: 150px;
+                padding: 1%;
+                width: 200px;
+                height: 40px;
+                font-weight: 300;
+            }
+            
+            .botao1 {
+                background-color: #ffff;
+                color: #c34463;
+                margin: 1%;
+            }
+            
+            .botao2 {
+                background-color: #c34463;
+                color: #ffffff;
+                margin: 1%;
+            }
+            
+            .container-footer {
+                display: flex;
+                flex-flow: row wrap;
+                justify-content: center;
+            }
+            
+            .desc-meio {
+                max-width: 400px;
+                width: 50%;
+            }
+            
+            .desc-meio2 {
+                max-width: 500px;
+                width: 70%;
+                margin: 2%;
+            }
+            
+            .form-baixo {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding: 5%;
+                flex-flow: row wrap;
+            }
+            
+            .img-form {
+                max-width: 400px;
+                width: 100%;
+                margin: 5%;
+            }
+            
+            .content-vitorias3 {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                justify-content: center;
+                padding: 3%;
+                flex-flow: row wrap;
+                width: 100%;
+            }
+            
+            .content-midia {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+            }
+            
+            .midia-baner {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                max-width: 800px;
+                width: 50%;
+            }
+            
+            .img-midia {
+                max-width: 200px;
+                width: 100%;
+                margin: 2%;
+            }
+            
+            @media (max-width: 956px) {
+                .icons,
+                .icons2,
+                .icons3,
+                .icons4 {
+                    font-size: 20px;
+                    border-radius: 35px;
+                    width: 35px;
+                    height: 35px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .title-h4-icons {
+                    font-size: 15px;
+                }
+                .buttons-banner {
+                    display: flex;
+                    align-items: center;
+                    padding: 0 3%;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+                .content-meio {
+                    width: 70%;
+                    margin: 4%;
+                    margin-bottom: 8%;
+                    max-width: 370px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    flex-direction: column;
+                }
+            }
+            
+            .container-baixo-2 {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                background-image: linear-gradient(to left, #c34463, #ffffff);
+                border-top-right-radius: 5px;
+                border-bottom-right-radius: 5px;
+            }
+            
+            .content-1 {
+                max-width: 550px;
+                width: 50%;
+                padding: 5%;
+                background-color: #74bb87;
+                border-top-left-radius: 5px;
+                border-bottom-left-radius: 5px;
+            }
+            
+            .content-2 {
+                max-width: 550px;
+                width: 50%;
+                padding: 5%;
+            }
+            
+            .img-vitorias3 {
+                width: 25%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                flex-direction: column;
+                border-radius: 4px;
+                padding: 2%;
+                margin: 2%;
+                padding-bottom: 3%;
+                min-width: 300px;
+                border: 0.1px solid rgba(0, 0, 0, 0.1);
+            }
+            
+            .fa-comment-dots {
+                font-size: 40px;
+                color: #c34463;
+            }
+            
+            @media (max-width: 626px) {
+                .icons,
+                .icons2,
+                .icons3,
+                .icons4 {
+                    font-size: 15px;
+                    border-radius: 30px;
+                    width: 30px;
+                    height: 30px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+                .title-h4-icons {
+                    font-size: 12px;
+                }
+            }
+            
+            @media (max-width: 526px) {
+                .icons,
+                .icons2,
+                .icons3,
+                .icons4 {
+                    font-size: 13px;
+                    border-radius: 25px;
+                    width: 25px;
+                    height: 25px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+                .title-h4-icons {
+                    font-size: 12px;
+                }
+            }
+            
+            @media (max-width: 421px) {
+                .icons,
+                .icons2,
+                .icons3,
+                .icons4 {
+                    font-size: 10px;
+                    border-radius: 20px;
+                    width: 20px;
+                    height: 20px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    text-align: center;
+                }
+                .title-h4-icons {
+                    font-size: 10px;
+                }
+                .botao1,
+                .botao2 {
+                    min-width: 140px;
+                    padding: 1%;
+                    width: 150px;
+                    height: 30px;
+                    font-weight: 300;
+                    font-size: 15px;
+                }
+            }
+            
+            @media (max-width: 991px) {
+                .secao-meio,
+                .content-vitorias {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                }
+                .img-secao-meio,
+                .texto-secao-meio,
+                .img-vitorias,
+                .text-vitorias {
+                    width: 80%;
+                }
+                .meio {
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    align-items: center;
+                }
+                .button-meio {
+                    margin-top: 5%;
+                }
+                .container-baixo-2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-image: linear-gradient(to top, #c34463, #ffffff);
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    flex-direction: column;
+                    width: 100%;
+                }
+                .content-2 {
+                    width: 100%;
+                    padding: 5%;
+                }
+                .content-1 {
+                    width: 100%;
+                    padding: 5%;
+                }
+            }
+            
+            @media (max-width: 964px) {
+                .content-2 {
+                    width: 100%;
+                    padding: 5%;
+                }
+                .content-1 {
+                    width: 100%;
+                    padding: 5%;
+                }
+                .container-baixo-2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-image: linear-gradient(to top, #c34463, #ffffff);
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    flex-direction: column;
+                    width: 100%;
+                }
+            }
+            
+            @media (max-width: 986px) {
+                .content-2 {
+                    width: 100%;
+                    padding: 5%;
+                }
+                .content-1 {
+                    width: 100%;
+                    padding: 5%;
+                }
+                .container-baixo-2 {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    background-image: linear-gradient(to top, #c34463, #ffffff);
+                    border-top-right-radius: 5px;
+                    border-bottom-right-radius: 5px;
+                    flex-direction: column;
+                    width: 100%;
+                }
+            }
