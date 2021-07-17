@@ -7,7 +7,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'django-insecure-fag+vw3a_i3e$6j7+(c$ftecbzn^$v*ci*khpb-ksumh$ywv$a'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['asaturismo.com','www.asaturismo.com','18.117.105.121',
 'ec2-18-117-105-121.us-east-2.compute.amazonaws.com']
